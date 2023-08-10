@@ -7,7 +7,7 @@ function arrSum(arr) {
   for (let i of arr) {
     sum += i;
   }
-  console.log(sum);
+  alert(sum);
 }
 arrSum(massive);
 // --------------------------ДЗ 16.3---------------------------------------
@@ -21,7 +21,7 @@ function fizzbuzz() {
     } else if (i % 3 == 0) {
       alert("fizz");
     }
-    console.log(i);
+    alert(i);
   }
 }
 
